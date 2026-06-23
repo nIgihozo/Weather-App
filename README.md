@@ -29,29 +29,45 @@ Follow these steps to run the development environment locally:
 ```bash
    git clone [https://github.com/nIgihozo/Weather-App.git](https://github.com/nIgihozo/Weather-App.git)
    cd Weather-App
+
+---
+
 Install dependencies:
 Using npm:
 
-Bash
+```bash
    npm install
+
+---
+
 Or using yarn:
 
-Bash
+```bash
    yarn install
+
+---
+
 Boot up the Expo local development server:
 
-Bash
+```bash
    npx expo start
-Running the Application
+
+---
+
+**Running the Application**
+
 Once the development server initializes, you have multiple execution vectors:
 
-Android Emulator: Press a in your terminal layout.
+- Android Emulator: Press a in your terminal layout.
 
-iOS Simulator: Press i in your terminal layout (requires macOS and Xcode setup).
+- iOS Simulator: Press i in your terminal layout (requires macOS and Xcode setup).
 
-Physical Device: Download the Expo Go application on your iOS or Android hardware, then scan the QR code displayed in your terminal or web dashboard.
+- Physical Device: Download the Expo Go application on your iOS or Android hardware, then scan the QR code displayed in your terminal or web dashboard.
 
-Core Architecture
+---
+
+**Core Architecture**
+
 The core view logic handling state boundaries lives cleanly within the primary entry runtime file:
 
-App.tsx - Processes application structure, view conditionals (Home vs Weather), styling objects, and safe-area boundaries.
+- App.tsx - Processes application structure, view conditionals (Home vs Weather), styling objects, and safe-area boundaries.
