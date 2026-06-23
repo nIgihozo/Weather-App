@@ -29,16 +29,19 @@ Follow these steps to run the development environment locally:
 ```bash
    git clone [https://github.com/nIgihozo/Weather-App.git](https://github.com/nIgihozo/Weather-App.git)
    cd Weather-App
-
-1. **Install dependencies:**
+Install dependencies:
 Using npm:
-   ```bash
+
+Bash
    npm install
+Or using yarn:
 
-2. **Boot up the Expo local development server:**
-```bash
-npx expo start
+Bash
+   yarn install
+Boot up the Expo local development server:
 
+Bash
+   npx expo start
 Running the Application
 Once the development server initializes, you have multiple execution vectors:
 
